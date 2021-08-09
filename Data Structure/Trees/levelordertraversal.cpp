@@ -38,6 +38,43 @@ void printLevelOrder(Node* root){
     }
 }
 
+int sumAtK(Node* root, int K){
+    int sum = 0;
+    if(root == NULL){
+        return -1;
+    }
+
+    queue<Node*> q;
+    q.push(root);
+    q.push(NULL);
+    int level = 0;
+
+    while(!q.empty()){
+        Node* node = q.front();
+        q.pop();
+        
+        if(node != NULL){
+            if(level == K){
+                sum += node->data;
+
+            }
+            if(node->left){
+                q.push(node->left);
+            if(node->right)
+                q.push(node->right);
+            }
+
+
+        }
+        else if(!q.empty()){
+            q.push(NULL);
+            level++;
+        }
+    }
+
+    return sum;
+}
+
 
 int32_t main(){
     struct Node* root = new Node(1);
@@ -51,4 +88,7 @@ int32_t main(){
 
     //Level order Traversal
     printLevelOrder(root);
+
+    //sum at Kth level
+    cout<<sumAtK(root, 2);
 }
