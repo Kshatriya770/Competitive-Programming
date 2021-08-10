@@ -53,8 +53,12 @@ int main(){
     root->right->left = new Node(6);
     root->right->right = new Node(7);
 
+    Node* root1 = new Node(1);
+    root1->left = new Node(2);
+    root1->left->left = new Node(3);
+
     //Height Balanced Tree
-    if(isBalanced(root)){
+    if(isBalanced(root1)){
         cout<<"Balanced Tree"<<"\n";
     }else{
         cout<<"Unbalanced Tree"<<"\n";
