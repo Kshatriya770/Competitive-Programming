@@ -18,4 +18,23 @@ int main(){
     cout<<"Size-> "<<v.size()<<endl;
 
     cout<<"Element at 2nd Index -> "<<v.at(2)<<endl;
+
+    cout<<"First Element -> "<<v.front()<<endl;
+    cout<<"Last Element -> "<<v.back()<<endl;
+
+    cout<<"before pop"<<endl;
+    for(int i:v){
+        cout<<i<<" ";
+    }cout<<endl;
+
+    v.pop_back();
+
+    cout<<"after pop"<<endl;
+    for(int i:v){
+        cout<<i<<" ";
+    }
+
+    cout<<"before clear size "<<v.size()<<endl;
+    v.clear();
+    cout<<"after clear size  "<<v.size()<<endl;
 }
