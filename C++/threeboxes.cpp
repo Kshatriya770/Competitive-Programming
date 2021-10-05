@@ -8,16 +8,12 @@ int main(){
         int sum = 0;
         cin>>a>>b>>c>>d;
         sum = a+b+c;
-        int result = (sum/d); 
-        if(sum>=d){
-            if(sum%d==0){
-                cout<<result<<endl;
-            }else{
-                cout<<result + 1<<endl;
-            }
-           
-        }else{
+        if(sum<=d){
             cout<<1<<endl;
+        }else if((2*d)<=sum){
+            cout<<3<<endl;
+        }else{
+            cout<<2<<endl;
         }
         
     }
