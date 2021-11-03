@@ -5,6 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch D_Make_XOR_zero",
+            "request": "launch",
+            "mainClass": "D_Make_XOR_zero",
+            "projectName": "Competitive-Programming_5f347d08"
+        },
+        {
+            "type": "java",
+            "name": "Launch RacingHorses",
+            "request": "launch",
+            "mainClass": "RacingHorses",
+            "projectName": "Competitive-Programming_5f347d08"
+        },
+        {
             "name": "g++.exe - Build and debug active file",
             "type": "cppdbg",
             "request": "launch",
