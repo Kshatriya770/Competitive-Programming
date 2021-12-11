@@ -1,0 +1,1 @@
+{"name":"Local: mushroom","url":"d:\\Github\\Competitive-Programming\\mushroom.cpp","tests":[{"id":1638724592819,"input":"5\n2\n1\n4\n5\n1\n2\n3","output":"12"},{"id":1638725554261,"input":"2\n6\n5\n3\n3\n7\n2\n6","output":"19"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\Competitive-Programming\\mushroom.cpp","group":"local","local":true}
