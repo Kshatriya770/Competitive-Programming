@@ -1,0 +1,1 @@
+{"name":"Local: canyouseeme","url":"d:\\Github\\Competitive-Programming\\C++\\canyouseeme.cpp","tests":[{"id":1641879541549,"input":"1\n6\n11 6 7 5 11 11","output":"3 2 2 1 1 0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\Competitive-Programming\\C++\\canyouseeme.cpp","group":"local","local":true}

@@ -21,6 +21,5 @@ class RacingHorses
 	    }
 	    System.out.println(ans);
 	}
-	
 	}
 }

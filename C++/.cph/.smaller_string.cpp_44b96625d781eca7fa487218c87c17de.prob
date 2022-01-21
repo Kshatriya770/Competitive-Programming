@@ -1,0 +1,1 @@
+{"name":"Local: smaller_string","url":"d:\\Github\\Competitive-Programming\\C++\\smaller_string.cpp","tests":[{"id":1641880279316,"input":"3\n3 3\n900\n6 2\n12054\n1 1\n8","output":"100\n10004\n0"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Github\\Competitive-Programming\\C++\\smaller_string.cpp","group":"local","local":true}
