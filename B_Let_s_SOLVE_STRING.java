@@ -24,7 +24,7 @@ class B_Let_s_SOLVE_STRING {
                 }
             }
 
-            System.out.println();
+            System.out.println(" ");
         }
         sc.close();
     }
