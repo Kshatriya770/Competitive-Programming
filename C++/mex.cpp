@@ -11,7 +11,6 @@ int main(){
         cin>>num;
         if (num == 0)
         {
-            /* code */
             cout<<"1"<<endl;
         }else if (num == 1 || num == 2)
         {
