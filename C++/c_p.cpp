@@ -4,6 +4,7 @@
 #include<fstream>
 #include<string.h>
 #include<stdio.h>
+// the program for the college prediction
 class admission_desk_jee_mains
 {
 int applicant_no;
