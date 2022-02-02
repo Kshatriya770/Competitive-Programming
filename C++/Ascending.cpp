@@ -9,5 +9,5 @@ int main(){
     }
     int a = sizeof(arr) / sizeof(arr[0]);
     sort(arr, arr + a);
-    if()
+    if(   )
 }
