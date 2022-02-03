@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+// Rubiks cube
 //-----------------------------------------------
 char white[9];
 char red[9];
