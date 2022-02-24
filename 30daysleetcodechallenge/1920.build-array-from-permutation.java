@@ -7,6 +7,7 @@
 // @lc code=start
 class Solution {
     public int[] buildArray(int[] nums) {
+        return nums;
         
         
     }
