@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ExceptionHandling",
+            "request": "launch",
+            "mainClass": "Java_Revision/dsa.ExceptionHandling",
+            "projectName": "Java_Revision"
+        },
+        {
+            "type": "java",
             "name": "Launch D_Make_XOR_zero",
             "request": "launch",
             "mainClass": "D_Make_XOR_zero",
