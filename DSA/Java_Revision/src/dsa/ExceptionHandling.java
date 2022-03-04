@@ -13,7 +13,6 @@ public class ExceptionHandling {
 			System.out.println(e.getLocalizedMessage());
 		}
 		
-
 	}
 
 }
