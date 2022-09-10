@@ -14,7 +14,7 @@ public class B {
 
         int add = f + m + t;
         int div = v % add;
-        if(div )
+        //if(div )
     }
 
 }
