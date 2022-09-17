@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "dsa.Main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Array",
+            "request": "launch",
+            "mainClass": "Java_Revision/dsa.Array",
+            "projectName": "Java_Revision"
+        },
+        {
+            "type": "java",
             "name": "Launch Zero",
             "request": "launch",
             "mainClass": "Zero",
