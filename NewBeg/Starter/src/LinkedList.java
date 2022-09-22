@@ -1,5 +1,3 @@
-import java.util.*;
-
 //Singly linkedlist
 public class LinkedList{
 
@@ -31,7 +29,9 @@ public class LinkedList{
         while(temp != null){
             System.out.print(temp.value + " -> ");
             temp = temp.next;
+            
         }
+        System.out.print("END");
     }
 
     private class Node{
