@@ -17,6 +17,8 @@ public class NewLl {
         }
     }
 
+    
+
 
     //Insert First
     public void insertFirst(int val){
@@ -30,6 +32,18 @@ public class NewLl {
 
         }
         size += 1;
+    }
+
+    //Insert last
+    public void insertLast(int val){
+        if(tail == null){
+            insertFirst(val);
+            return;
+        }
+        Node node = new Node(val);
+        tail.next = node;
+        tail = node;
+        size++;
     }
 
     private class Node{

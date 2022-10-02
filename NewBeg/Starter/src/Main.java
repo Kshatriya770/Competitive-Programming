@@ -7,6 +7,7 @@ public class Main {
         NewLl list = new NewLl();
         list.insertFirst(23);
         list.insertFirst(21);
+        list.insertFirst(55);
         list.display();
         
     }
