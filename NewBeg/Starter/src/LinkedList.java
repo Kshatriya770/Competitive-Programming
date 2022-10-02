@@ -101,7 +101,7 @@ public class LinkedList{
         return val;
     }
 
-    //Find
+    //Find 
     public Node find(int value){
         Node node = head; 
         while(node != null){
