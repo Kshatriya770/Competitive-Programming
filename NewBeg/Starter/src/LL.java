@@ -95,6 +95,25 @@ class LL {
         System.out.println("NULL");
     }
 
+    public void reverseIterate(){
+        if(head == null || head.next == null){
+            return;
+        }
+
+        Node prevNode = head;
+        Node currNode = head.next;
+        while(currNode != null){
+            Node nextNode = currNode.next;
+            currNode.next = prevNode;
+
+            //update
+            prevNode = currNode;
+            currNode = nextNode;
+        }
+        head.next = null;
+        head = prevNode;
+    }
+
     //return size
     public int getSize(){
         return size;
@@ -102,17 +121,16 @@ class LL {
 
     public static void main(String[] args) {
         LL list = new LL();
-        list.addFirst("a");
-        list.addFirst("is");
+        list.addLast("1");
+        list.addLast("2");
+        list.addLast("3");
+        list.addLast("4");
+        list.addLast("5");
+        list.addLast("6");
         list.printList();
-        list.addLast("list");
+        list.reverseIterate();
         list.printList();
-        list.addFirst("this");
-        list.printList();
-        list.deleteFirst();
-        list.printList();
-        System.out.println(list.getSize());
-        list.addFirst("this");
-        System.out.println(list.getSize());
     }
+
+    
 }
