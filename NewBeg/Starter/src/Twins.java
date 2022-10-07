@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class Twins {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
@@ -28,4 +31,5 @@ public class Twins {
             }
 
         }
+    }
 }
