@@ -29,7 +29,6 @@ public class Twins {
             if(arr[i] + arr[i+1] > arr1[i] + arr1[i+1]){
                 
             }
-
         }
     }
 }

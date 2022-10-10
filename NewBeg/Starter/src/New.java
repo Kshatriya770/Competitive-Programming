@@ -14,9 +14,9 @@ public class New {
 
         for(int i = 0; i<list.size(); i++){
             System.out.print(list.get(i) + " -> ");
+            
         }
         System.out.println("NULL");
-
         list.removeFirst();
         System.out.println(list);
         list.removeLast();
